@@ -1,0 +1,314 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Wiraraja Resources</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<style>
+    ::placeholder {
+        color: white !important;
+    }
+</style>
+
+<body>
+    <div class="bg">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand logo ms-5" href="#">
+                    <img src="{% static 'img/Wiraraja-Resources-Logo-OK.png' %}" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fw-bold" href="/">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle fw-bold" href="/business" id="businessDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                BUSINESS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="businessDropdown">
+                                <li><a class="dropdown-item fw-bold" href="/manufacturing">MANUFACTURING</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/mining">MINING</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle fw-bold" href="/company" id="companyDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                COMPANY
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="companyDropdown">
+                                <li><a class="dropdown-item fw-bold" href="/aboutus">ABOUT US</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/news">NEWS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle fw-bold" href="/career" id="careerDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                CAREER
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="careerDropdown">
+                                <li><a class="dropdown-item fw-bold" href="/apply">APPLY JOBS</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/why">WHY WIRARAJA</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <li class="nav-item list-unstyled">
+                        <a class="contact-btn btn fw-bold" href="/contact">Contact</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav -->
+
+        <!-- hero -->
+        <section class="cs-margin">
+            <div class=" container">
+                <div class="text-center mt-5">
+                    <h1 class="fw-bold custom-heading">Contact Us</h1>
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                    <a href="/" class="btn btn-explore fw-bold fs-6">Back to Home</a>
+                </div>
+                <div class="container mt-5"></div>
+            </div>
+        </section>
+    </div>
+    <!-- end hero -->
+
+    <div style="background-color: #1a1a1a;">
+        <div class="container pt-5" style="width: 80%">
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card bg-dark" style="width: 22rem; height: 100%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-4 mt-4">
+                                <i class="fas fa-location-dot fs-1 text-white"></i>
+                            </div>
+                            <h5 class="card-title text-center text-white fw-bold">OFFICE ADDRESS</h5>
+                            <p class="card-text text-white text-center">Wiraraja Industrial Estate Blok. A No. 3A
+                                <br>
+                                RT. 001 RW. 001
+                                <br>
+                                Kabil, Nongsa, Kota Batam, Kepulauan Riau, 29467
+                                <br>
+                                Indonesia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card bg-dark" style="width: 22rem; height: 100%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-4 mt-4">
+                                <i class="fas fa-phone fs-1 text-white"></i>
+                            </div>
+                            <h5 class="card-title text-center text-white fw-bold">PHONE NUMBER</h5>
+                            <p class="card-text text-white text-center">
+                                +62 811-7881-999
+                                <br>
+                                +62 811-7792-999
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark" style="width: 22rem; height: 100%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-4 mt-4">
+                                <i class="fas fa-envelope fs-1 text-white"></i>
+                            </div>
+                            <h5 class="card-title text-center text-white fw-bold">EMAIL ADDRESS</h5>
+                            <p class="card-text text-white text-center">commercial@wiraraja.com
+                                <br>
+                                marketing@wiraraja.com
+                                <br>
+                                natasha@wiraraja.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map pt-5">
+                <div class="col-md-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.139649983586!2d104.1280067!3d1.0568094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d985dd66cd2ef3%3A0x57199c7fbea76512!2sWiraraja%20Indonesia!5e0!3m2!1sen!2sid!4v1740930368044!5m2!1sen!2sid"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="help pt-5 pb-4">
+                <h1 class="text-white fw-bold text-center" style="font-size: 4rem;">How Can We Help You Today</h1>
+                <p class="text-white text-center">Allow us to know how we can best serve you. Submit your message here,
+                    and our team will contact you
+                    swiftly
+                </p>
+
+                <form class="pt-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <input type="text" class="form-control rounded-0 bg-dark text-white border-0 p-3"
+                                    id="firstName" required placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <input type="text" class="form-control rounded-0 bg-dark text-white border-0 p-3"
+                                    id="lastName" required placeholder="Last Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <input type="text" class="form-control rounded-0 bg-dark text-white border-0 p-3"
+                                    id="firstName" required placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <input type="text" class="form-control rounded-0 bg-dark text-white border-0 p-3"
+                                    id="lastName" required placeholder="Email Address">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <input type="text" class="form-control rounded-0 bg-dark text-white border-0 p-3"
+                                id="lastName" required placeholder="Country">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <input type="text" class="form-control rounded-0 bg-dark text-white border-0 p-3"
+                                id="lastName" required placeholder="Company">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="">
+                            <textarea class="form-control rounded-0 bg-dark text-white border-0 p-3" id="address"
+                                rows="5" required placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="pt-4 d-flex justify-content-center">
+                        <a class="btn btn-explore2 fw-bold fs-6">Submit Form</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-5 text-center cs-margin"
+        style="height: 300px;background: radial-gradient(circle, #b6d7a8, #9fc49d);">
+        <div class="container mt-5">
+            <h2 class="cs-text fw-bold fs-1">Connect With Us</h2>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-6 d-flex justify-content-center gap-3">
+                    <a href="#" class="social-icon instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon linkedin">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-icon youtube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="d-flex justify-content-center footer bg-dark text-white">
+        <div class="container align-items-center mt-5">
+            <div class="row">
+                <div class="col-md-3 mx-auto py-2">
+                    <div class="kirifoot">
+                        <img src="{% static 'img/Wiraraja-Resources-Logo-OK.png' %}" alt="" height="60px"
+                            class="d-inline-block align-text-top" />
+                        <p class="navbartext1 fw-bold">A Member of Wiraraja Indonesia</p>
+                    </div>
+                    <div style="padding-top: 80px;">
+                        <p>© Copyright 2025 All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto pt-5">
+                    <div class="mb-4 d-flex justify-content-center gap-4">
+                        <a href="/" class="text-white text-decoration-none fw-bold">HOME</a>
+                        <div class="dropdown">
+                            <a class="text-white text-decoration-none fw-bold dropdown-toggle" href="/business"
+                                role="button" id="businessDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                BUSINESS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="businessDropdown">
+                                <li><a class="dropdown-item fw-bold" href="/manufacturing">MANUFACTURING</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/mining">MINING</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <a class="text-white text-decoration-none fw-bold dropdown-toggle" href="/company"
+                                role="button" id="companyDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                COMPANY
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="companyDropdown">
+                                <li><a class="dropdown-item fw-bold" href="/about">ABOUT US</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/news">NEWS</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <a class="text-white text-decoration-none fw-bold dropdown-toggle" href="/career"
+                                role="button" id="careerDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                CAREER
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="careerDropdown">
+                                <li><a class="dropdown-item fw-bold" href="/apply">APPLY JOBS</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/why">WHY WIRARAJA</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pt-3 d-flex justify-content-center gap-4">
+                        <a href="#"
+                            class="d-flex align-items-center justify-content-center text-white border border-dark rounded-circle social-logo"
+                            style="width: 50px; height: 50px; background-color: #2c2c2c;">
+                            <i class="bi bi-instagram fs-4"></i>
+                        </a>
+                        <a href="#"
+                            class="d-flex align-items-center justify-content-center text-white border border-dark rounded-circle social-logo"
+                            style="width: 50px; height: 50px; background-color: #2c2c2c;">
+                            <i class="bi bi-linkedin fs-4"></i>
+                        </a>
+                        <a href="#"
+                            class="d-flex align-items-center justify-content-center text-white border border-dark rounded-circle social-logo"
+                            style="width: 50px; height: 50px; background-color: #2c2c2c;">
+                            <i class="bi bi-youtube fs-4"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto py-2">
+                    <div class="d-flex justify-content-end" style="padding-top: 180px;">
+                        <a href="/term" class="term-text fw-bold text-decoration-none">Terms And Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+
+</html>
