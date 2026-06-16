@@ -1,0 +1,8 @@
+![Homepage](ss-wrj/homepage.png)
+![About Us](ss-wrj/about-us.png)
+![Mining](ss-wrj/mining.png)
+![Product](ss-wrj/product.png)
+![News](ss-wrj/news.png)
+![Why](ss-wrj/why.png)
+![Apply Career](ss-wrj/apply-career.png)
+![Contact](ss-wrj/contact.png)
